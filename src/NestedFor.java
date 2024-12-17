@@ -2,9 +2,12 @@ import java.util.Scanner;
 
 class NestedFor
     {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Types of Programs:\n");
+
+        System.out.println("\n\nTypes of Patterns:\n");
+
         System.out.println("1. Right Triangle");
         System.out.println("2. Upside-Down Right Triangle");
         System.out.println("3. Upside-Down Inverted Right Triangle");
@@ -15,7 +18,9 @@ class NestedFor
         System.out.println("8. Binary 101 Alternating Tri");
         System.out.println("9. Diamond Tri x2");
         System.out.println("10. Stars and Stri... erm letters");
+
         System.out.println("\n");
+
         System.out.println("Enter a key");
         int key = sc.nextInt();
         System.out.println("Enter a number");
